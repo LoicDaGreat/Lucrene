@@ -1,0 +1,30 @@
+ion-content {
+    --padding-start: 20px;
+    --padding-end: 20px;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link p {
+    margin: 0;
+  }
+  
+  .login-link a {
+    color: #3880ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;  /* Ajoutez de l'espace entre le titre et le formulaire */
+  }
+  

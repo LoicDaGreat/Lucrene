@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      activity-detail
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-img [src]="(activityDetail | async)?.image"></ion-img>
+  <ion-card no-margin>
+  <ion-card-header>
+    <ion-card-title>
+      {{(activityDetail |async)?.name}}
+    </ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    {{(activityDetail |async)?.description}}
+  </ion-card-content>
+</ion-card>
+<!-- <ion-button (click)="afficherPrompt()">Consulter le Médecin</ion-button> -->
+<ion-button>Consulter le Médecin</ion-button>
+<!-- <p *ngIf="saisieUtilisateur">Vous avez saisi : {{ saisieUtilisateur }}</p> -->
+
+</ion-content>

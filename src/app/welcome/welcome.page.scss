@@ -1,0 +1,23 @@
+.welcome-container {
+    text-align: center;
+    margin-top: 15%;
+  }
+  
+  .welcome-container h1 {
+    font-size: 9em;
+  }
+  
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+  }
+  
+  .links-container a {
+    flex: 1;
+    text-decoration: none;
+    color: #0936b1;
+    font-size: 4em;
+    padding: 25px;
+  }
+  
